@@ -29,18 +29,21 @@ if (distance < 50) //change the distance here for the red light to activate
   digitalWrite(2,HIGH);
   digitalWrite(3,LOW);
   digitalWrite(4,LOW);
+  delay(300);
  }
 else if (distance > 50 && distance < 100) //change the distance here for the yellow light to activate 
  { //YELLOW LIGHT
   digitalWrite(2,LOW);
   digitalWrite(3,HIGH);
   digitalWrite(4,LOW);
+  delay(300);
  }
 else if (distance > 100 && distance < 200) //change the distance here for the green light to activate 
  { //GREEN LIGHT
   digitalWrite(2,LOW);
   digitalWrite(3,LOW);
   digitalWrite(4,HIGH);
+  delay(300);
  }
 else
  {
